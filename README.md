@@ -33,7 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 run angular archwizard.
 
-You can decide to import archwizard css in case you need to style its process flow indicators, but this is optional and it does not have an impact on of the wizard works or not.  ( @import '../node_modules/angular-archwizard/styles/archwizard.css';).
+You can decide to import archwizard css in case you need to style its process flow indicators, but this is optional and it does not have an impact on if the wizard works or not.  ( @import '../node_modules/angular-archwizard/styles/archwizard.css';).
 
 Also check your "Package.json" to ensure the package is properly installed.
 

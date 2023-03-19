@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 
 @Component({
   selector: 'app-second-wizard',
@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondWizardComponent implements OnInit {
 
+  outOfJail: any = 'awEnableBackLinks';
+
+  addBacklinks: boolean = true;
+
+  enable() {
+this.addBacklinks = !this.addBacklinks;
+  }
+
+
+
   constructor() { }
 
   ngOnInit(): void {
+      console.log(this.outOfJail);
   }
 
 }

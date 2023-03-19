@@ -1,13 +1,15 @@
-<aw-wizard>
-    <aw-wizard-step>
+<aw-wizard [navBarLocation]="'top'"  [navBarLayout]="'large-filled-symbols'" [defaultStepIndex]="0" class="custom-step-css"
+>
+
+    <aw-wizard-step [stepTitle]="'First Step'" [navigationSymbol]="{symbol: '&#xf095;', fontFamily: 'FontAwesome' }">
         <app-step4></app-step4>
     </aw-wizard-step>
 
-        <aw-wizard-step>
+        <aw-wizard-step [stepTitle]="'Second Step'">
         <app-step5></app-step5>
     </aw-wizard-step>
 
-        <aw-wizard-step>
+        <aw-wizard-completion-step [stepTitle]="'Third Step'">
         <app-step6></app-step6>
-    </aw-wizard-step>
+    </aw-wizard-completion-step>
 </aw-wizard>

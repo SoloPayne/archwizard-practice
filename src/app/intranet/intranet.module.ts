@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ArchwizardModule } from 'angular-archwizard';
+import { FormsModule } from '@angular/forms';
 
 import { IntranetRoutingModule } from './intranet-routing.module';
 import { SecondWizardComponent } from './second-wizard/second-wizard.component';
@@ -20,7 +21,8 @@ import { Step6Component } from './step6/step6.component';
   imports: [
     CommonModule,
     IntranetRoutingModule,
-    ArchwizardModule
+    ArchwizardModule,
+    FormsModule
   ]
 })
 export class IntranetModule { }

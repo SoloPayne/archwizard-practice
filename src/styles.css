@@ -1,3 +1,5 @@
+@import '../node_modules/angular-archwizard/styles/archwizard.css';
+
 body, html{
     height: 100%;
 }
@@ -36,3 +38,8 @@ button:active{
     align-items: center;
     justify-content: center;
     margin: auto;}
+
+aw-wizard-navigation-bar.horizontal.large-filled-symbols ul.steps-indicator li.done .step-indicator {
+    background-color: #4064eb !important;
+    color: #ddd !important;
+}

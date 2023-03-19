@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ArchwizardModule } from 'angular-archwizard';
 import { IntranetModule } from './intranet/intranet.module';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,7 @@ import { FirstWizardComponent } from './first-wizard/first-wizard.component';
 import { Step1Component } from './step1/step1.component';
 import { Step2Component } from './step2/step2.component';
 import { Step3Component } from './step3/step3.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { Step3Component } from './step3/step3.component';
     BrowserModule,
     AppRoutingModule,
     ArchwizardModule,
-    IntranetModule
+    IntranetModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
